@@ -35,7 +35,7 @@ NECフォーマット、家製協(AEHA)フォーマット、SONYフォーマッ�
 
 
 ## PCB例
-Machikania Type M拡張基板の実装例
+[Machikania Type M](http://www.ze.em-net.ne.jp/~kenken/machikania/typem.html)拡張基板の実装例
 
 X
 
