@@ -5,25 +5,26 @@ IR Remote Controller signal monitor PIC16F18313
 
 ChaNさまの[「赤外線リモコン制御モジュール」](http://elm-chan.org/fsw/irctrl/00index.html)を利用しています。 
 
-NECフォーマット、家製協(AEHA)フォーマット、SONYフォーマットの三種類に対応。
+NECフォーマット、家製協(AEHA)フォーマット、SONYフォーマット三種類の送受信に対応。
 
 ***
 ## 受信フォーマット
 9600bps 8N
 ### NECフォーマット
 32bitの固定長
-N 0x11 0x22 0x33 0x44 
+- N 0x11 0x22 0x33 0x44 
 
 ### 家製協(AEHA)フォーマット
 可変長(128bitまで受信可能)
-N 0x11 0x22 0x33 0x44 .. 0xNN
+- N 0x11 0x22 0x33 0x44 .. 0xNN
 
 ### SONYフォーマット
 12bit、15bit、20bitの3種類の固定長
 
-S12 0x11 0x22
-S15 0x11 0x22
-S20 0x11 0x22 0x33
+- S12 0x11 0x22
+- S15 0x11 0x22
+- S20 0x11 0x22 0x33
+- SE 0x00 エラー
 
 ## 送信フォーマット
 デバッグ中..
@@ -35,18 +36,20 @@ S20 0x11 0x22 0x33
 
 ## PCB例
 Machikania Type M拡張基板の実装例
-- X
+X
  - Vdd
  - Gnd
-- Y
- - RA4 - C14/RX
+
+Y
+    - RA4 - C14/RX
  - RA3 - C13/TX
  - RA2 - B2(Reserved)
  - RA1 - B3(Reserved)
 
-黄色はジャンパー接続をイメージしてます。
 ![PCB](/images/pcb.PNG)
-![実装](/images/e_kiban.jpeg)
+黄色はジャンパー接続をイメージしてます。
+
+![Machikaniaに装着](/images/e_kiban.jpeg)
  
 ***
 ## ご注意
