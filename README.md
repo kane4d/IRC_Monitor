@@ -36,15 +36,18 @@ NECフォーマット、家製協(AEHA)フォーマット、SONYフォーマッ�
 
 ## PCB例
 Machikania Type M拡張基板の実装例
+
 X
- - Vdd
- - Gnd
+
+- Vdd
+- Gnd
 
 Y
-    - RA4 - C14/RX
- - RA3 - C13/TX
- - RA2 - B2(Reserved)
- - RA1 - B3(Reserved)
+
+- RA4 - C14/RX
+- RA3 - C13/TX
+- RA2 - B2(Reserved)
+- RA1 - B3(Reserved)
 
 ![PCB](/images/pcb.PNG)
 黄色はジャンパー接続をイメージしてます。
