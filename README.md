@@ -9,6 +9,7 @@ NECフォーマット、家製協(AEHA)フォーマット、SONYフォーマッ�
 
 ***
 ## 受信フォーマット
+9600bps 8N
 ### NECフォーマット
 32bitの固定長
 N 0x11 0x22 0x33 0x44 
@@ -46,7 +47,7 @@ Machikania Type M拡張基板の実装例
 黄色はジャンパー接続をイメージしてます。
 ![PCB](/images/pcb.PNG)
 ![実装](/images/e_kiban.jpeg)
-
+ 
 ***
 ## ご注意
 ### ソースについて
