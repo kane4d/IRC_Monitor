@@ -44,8 +44,8 @@ Machikania Type M拡張基板の実装例
  - RA1 - B3(Reserved)
 
 黄色はジャンパー接続をイメージしてます。
-![PCB](/images/pcb.png)
-![実装](/images/e_kiban.png)
+![PCB](/images/pcb.PNG)
+![実装](/images/e_kiban.jpeg)
 
 ***
 ## ご注意
